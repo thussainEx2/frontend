@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logout</title>
+    <script>
+        // Clear the session storage
+        sessionStorage.removeItem('loggedInUser');
+
+        // Redirect to the login page
+        window.location.href = 'login.html';
+    </script>
+</head>
+<body>
+    <p>Logging out...</p>
+</body>
+</html>
